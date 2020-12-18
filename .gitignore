@@ -143,3 +143,9 @@ dmypy.json
 .prof
 
 # End of https://www.toptal.com/developers/gitignore/api/python
+Printable.pdf
+Exe/EmoCh/emoch.tmp
+Exe/EmoCh/MLP.joblib
+emoch.tmp
+Exe/EmoCh/emoch.tmp
+Exe/EmoCh/MLP.joblib

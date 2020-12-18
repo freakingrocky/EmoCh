@@ -25,6 +25,7 @@ from live_classifier import start_stream, stop_stream
 # Global Variables
 PROGRESS = 0
 
+
 class MainWindow(QMainWindow):
     """Main Window."""
     def __init__(self):

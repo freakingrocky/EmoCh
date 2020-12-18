@@ -1,5 +1,6 @@
 
-# EmoCh- Emotion Analysis from Speech
+# EmoCh- Emotion Analysis from Speech <img alt="Project stage: Development" src="https://img.shields.io/badge/Project%20Stage-Development-yellowgreen.svg" />
+
 **There is a 1 Second Delay in classification**\
 ![Demo](https://i.imgur.com/MOA4gBr.gif)
 ## Emotion Analysis from Speech using Python
@@ -61,24 +62,18 @@ Various Machine Learning and Artificial Intelligence models were trained and tes
 Here are there accuracy results on the randomly selected testing set:
 
 - Support Vector Machine\
-&nbsp;&nbsp;&nbsp;&nbsp;Best Accuracy Achieved: 77.26%\
-&nbsp;&nbsp;&nbsp;&nbsp;Inconsistent (Not Suitable for production)
+&nbsp;&nbsp;&nbsp;&nbsp;Best Accuracy Achieved: 77.26%
 - Nearest Neighbor Classifier (One Node)\
-&nbsp;&nbsp;&nbsp;&nbsp;Best Accuracy Achieved: 88.77%\
-&nbsp;&nbsp;&nbsp;&nbsp;Consistent around 85% (Suitable for production)
+&nbsp;&nbsp;&nbsp;&nbsp;Best Accuracy Achieved: 88.77%
 - K-Nearest Neighbor Classifier (4 Nodes)\
-&nbsp;&nbsp;&nbsp;&nbsp;Best Accuracy Achieved: 86.70%\
-&nbsp;&nbsp;&nbsp;&nbsp;Consistent around 84% (Suitable for production)
+&nbsp;&nbsp;&nbsp;&nbsp;Best Accuracy Achieved: 86.70%
 - Naive Bayes Classifier\
-&nbsp;&nbsp;&nbsp;&nbsp;Best Accuracy Achieved: 58.02%\
-&nbsp;&nbsp;&nbsp;&nbsp;Highly Inconsistent (Not Suitable for production)
+&nbsp;&nbsp;&nbsp;&nbsp;Best Accuracy Achieved: 58.02%
 - Deep Neural Network (with no user-defined features)\
 &nbsp;&nbsp;&nbsp;&nbsp;Best Accuracy Achieved: 91.81%\
-&nbsp;&nbsp;&nbsp;&nbsp;Extremely High Model Load Times; Requires high processing power. (Not Suitable for intended use-case)\
-&nbsp;&nbsp;&nbsp;&nbsp;Highly Inconsistent (Not Suitable for production)
+&nbsp;&nbsp;&nbsp;&nbsp;Extremely High Model Load Times; Requires high processing power. (Not Suitable for intended use-case)
 - Multi-Layer Perceptron (Convolutional Neural Network for internal classification)\
-&nbsp;&nbsp;&nbsp;&nbsp;Best Accuracy Achieved: 89.62%\
-&nbsp;&nbsp;&nbsp;&nbsp;Highly Consistent around 86% (Suitable for production)
+&nbsp;&nbsp;&nbsp;&nbsp;Best Accuracy Achieved: 89.62%
 
 From the results above, it is clear that Multi-Layer Perceptron is best suited for the task at hand.
 
