@@ -22,18 +22,23 @@ from live_classifier import get_emotion
 from utils import get_audio_devices
 from live_classifier import start_stream, stop_stream
 
+# Other Imports
+import os
+
 # Global Variables
 PROGRESS = 0
 
 
 class MainWindow(QMainWindow):
     """Main Window."""
+
     def __init__(self):
         """Setup & Control the window."""
         QMainWindow.__init__(self)
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
 
+        # Images
         self.pixmaps = {
             'angry': QPixmap(images['ANGRY']).scaled(650, 350, Qt.KeepAspectRatio, Qt.FastTransformation),
             'calm': QPixmap(images['CALM']).scaled(650, 350, Qt.KeepAspectRatio, Qt.FastTransformation),
@@ -41,6 +46,7 @@ class MainWindow(QMainWindow):
             'elated': QPixmap(images['ELATED']).scaled(650, 350, Qt.KeepAspectRatio, Qt.FastTransformation)
         }
 
+        # Configuring/Adding Audio Devices
         audioDevices = get_audio_devices()
 
         for item in audioDevices[1]:
@@ -50,6 +56,7 @@ class MainWindow(QMainWindow):
 
         self.ui.InputSelect.currentIndexChanged.connect(self.setaudiodevice)
 
+        # Starting Audio Stream & Classification
         self.timer = QtCore.QTimer()
         self.timer.timeout.connect(self.start)
         self.timer.start(1)
@@ -63,11 +70,14 @@ class MainWindow(QMainWindow):
         start_stream(self.ui.InputSelect.currentIndex())
         self.timer.start(1)
 
-
     def start(self):
         emotion = get_emotion()
         self.ui.label_2.setText(emotion[0].upper())
         self.ui.Image.setPixmap(self.pixmaps[emotion[0]])
+
+    def closeEvent(self, event):
+        if os.path.exists("emoch.tmp"):
+            os.remove("emoch.tmp")
 
 
 class SplashScreen(QMainWindow):
