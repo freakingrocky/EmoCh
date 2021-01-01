@@ -13,9 +13,12 @@ Python libraries such as `librosa`, `scikit`, `pyaudio`, `wave`, `numpy` are use
 Additionally, python libraries such as `tensorflow` and `pydub` were used in the research stage.
 
 ### Installation
+
+#### Method 1 (Not Recommended)
 Windows users can download a zipped file from zippyshare ***(External)***\
 &nbsp;&nbsp;&nbsp;&nbsp;[Click Here To Download Zip](https://www107.zippyshare.com/v/Y80pkhLE/file.html)\
-For other OS or if you prefer a python file:
+**Though the major updates will be maintained on zippyshare link, smaller changes such as new models will not. Thus, I encourage you to use one of the methods listed below.**\
+#### Method 2 (Recommended):
 ```cmd
 git clone https://github.com/freakingrocky/EmoCh.git
 cd EmoCh
