@@ -17,7 +17,7 @@ Additionally, python libraries such as `tensorflow` and `pydub` were used in the
 #### Method 1 (Not Recommended)
 Windows users can download a zipped file from zippyshare ***(External)***\
 &nbsp;&nbsp;&nbsp;&nbsp;[Click Here To Download Zip](https://www107.zippyshare.com/v/Y80pkhLE/file.html)\
-**Though the major updates will be maintained on zippyshare link, smaller changes such as new models will not. Thus, I encourage you to use one of the methods listed below.**\
+**Though the major updates will be maintained on zippyshare link, smaller changes such as new models will not. Thus, I encourage you to use method 2.**
 #### Method 2 (Recommended):
 ```cmd
 git clone https://github.com/freakingrocky/EmoCh.git
