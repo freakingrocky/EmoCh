@@ -74,7 +74,8 @@ Here are there accuracy results on the randomly selected testing set:
 &nbsp;&nbsp;&nbsp;&nbsp;Best Accuracy Achieved: 58.02%
 - Deep Neural Network (with no user-defined features)\
 &nbsp;&nbsp;&nbsp;&nbsp;Best Accuracy Achieved: 91.81%\
-&nbsp;&nbsp;&nbsp;&nbsp;Extremely High Model Load Times; Requires high processing power. (Not Suitable for intended use-case)
+&nbsp;&nbsp;&nbsp;&nbsp;Extremely High Model Load Times; Requires high processing power. (Not Suitable for intended use-case)\
+&nbsp;&nbsp;&nbsp;&nbsp;Also, this is probably the result of overfitting.
 - Multi-Layer Perceptron (Convolutional Neural Network for internal classification)\
 &nbsp;&nbsp;&nbsp;&nbsp;Best Accuracy Achieved: 89.62%
 
