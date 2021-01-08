@@ -35,7 +35,7 @@ python live_classifier.py
 [The Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS)](https://zenodo.org/record/1188976)\
 &nbsp;&nbsp;Only the audio is used from this dataset. This dataset's audio is in North American accent.\
 [Toronto emotional speech set (TESS)](https://tspace.library.utoronto.ca/handle/1807/24487)\
-&nbsp;&nbsp;This dataset consists of 2 people of 26 and 67 years from the Toronto area (Canada)
+&nbsp;&nbsp;This dataset consists of 2 people of 26 and 64 years from the Toronto area (Canada)
 
 
 
