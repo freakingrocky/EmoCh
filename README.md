@@ -42,7 +42,7 @@ python live_classifier.py
 ### Research Approach
 
 #### Feature Selection
-Initially, `tonnetz` was also used but has been removed as it yielded low accuracy boost with high compute requirements.
+Initially, `tonnetz` was also used but has been removed as it yielded low accuracy boost.
 
 The features are extracted and provided as input to the various models for training.
 
